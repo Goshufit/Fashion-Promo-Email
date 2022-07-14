@@ -1,0 +1,231 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark"> -->
+    <title>Promo Email Design</title>
+    <style type="text/css">
+        /* :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        } */
+
+        /*Margin: 0; allows no spacing at the top or bottom of the email */
+        body {
+            margin: 0;
+            background-color: #000;
+            /* background: #2d2d2d !important;
+            color: #f0f0f0 !important; */
+        }
+
+        /* Border-spacing: 0; stops email clients from putting space in between the tables  */
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            /* width 100% keeps the tables within the design no matter the screen size */
+            width: 100%;
+            background-color: rgb(91, 90, 90);
+            /* fixed makes sure the table layout doesnt display out of parent elements or the center tag */
+            table-layout: fixed;
+            /* gives spacing tot he bottom of the email template */
+            padding-bottom: 60px;
+
+        }
+
+        /* This .main class makes sure that email clients respect the width, color, and centering of the design and is the main email template table   */
+        .main {
+            /* margin re-enforces the centering of the design */
+            margin: 0 auto;
+            /* Makes sure the element takes up 100% of the width of the outer parent element */
+            width: 100%;
+            /* Re-enforce the max width */
+            max-width: 600px;
+            border-spacing: 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+
+        @media only screen and (max-width: 600px) {}
+
+        @media only screen and (max-width: 400px) {}
+    </style>
+</head>
+
+<body>
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        <!-- Preheader message here -->
+    </div>
+    <!-- Center tag makes sure the email is centered in email clients -->
+    <center class="wrapper">
+
+        <table class="main" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+
+            <!-- Logo and Main Header -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                        style="max-width: 600px;">
+                        <tr>
+                            <td>
+                                <a href="https://github.com/Goshufit"><img src="img/fashion-network-logo.webp" alt=""
+                                        width="100%"></a>
+                                <h2
+                                    style="margin: 0; font-family: sans-serif; font-size: 30px; padding: 40px 0 40px 0;">
+                                    Save up to <span
+                                        style="font-size: 50px; color: #ff0000; vertical-align: sub;">50%</span
+                                        style="vertical-align: bottom;"> on New Arrivals
+                                </h2>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="height: 10px; background-color: #000;">
+                </td>
+            </tr>
+
+            <!-- Banner -->
+
+            <tr>
+                <td>
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td
+                                style="padding: 210px 30px; background-image: url('https://i.ibb.co/GCf83Qm/fashion.webp'); background-size: cover; background-position: center; color: #ffffff;">
+
+                                <h1 style="color:#ffffff; font-family: sans-serif; text-shadow: 3px 3px 5px #000;">The
+                                    Perfect Way To Style In 2023
+                                </h1>
+                                <a href="https://github.com/Goshufit"
+                                    style="text-decoration: none; color: inherit; font-weight: bolder; font-size: 20px; background-color: #000; padding: 10px; border-radius: 8px; border: solid 1px #ffffff; font-family: sans-serif;">BUY
+                                    NEW COLLECTION</a>
+
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Clothing Section -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td style="background-color: #000; padding: 0px 20px; border: solid 3px #ffffff;">
+                                <h3 style="font-size: 25px; font-family: sans-serif; color: #ffffff;">New Arrivals</h3>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                        style="background-color: #ffffff; padding: 20px;" width="100%">
+                        <tr>
+                            <td style="display: inline-block;">
+                                <a href=""><img src="https://i.ibb.co/RpCC42Q/watch.png" alt="watch"
+                                        style="max-width: 250px; border: 2px solid #d5d5d5;" width="100%"></a>
+                                <h2 style="font-family: sans serif; font-size: 20px;">Watch</h2>
+                                <p style="font-size: 16px;">$399</p>
+
+                            </td>
+                            <!-- This td tag acts as an invisible element that doesnt even register with the browser it sees it as almost as if it were an angle bracket on a tag but the styling is still adhered to so the inline display and the vertical align top conditions still apply allowing the 3rd item in the row to appear next to the first because of the vertical align top condition -->
+                            <td style="display: inline-block; max-width: 20px; width: 100%;">
+                                &nbsp;
+                            </td>
+                            <td style="display: inline-block;">
+                                <a href=""><img src="https://i.ibb.co/jy47c3n/shoes.png" alt="shoes"
+                                        style="max-width: 250px; border: 2px solid #d5d5d5;" width="100%"></a>
+                                <h2 style="font-family: sans serif; font-size: 20px;">Casual Shoes</h2>
+                                <p style="font-size: 16px;">$240</p>
+
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="display: inline-block;">
+                                <a href=""><img src="https://i.ibb.co/2F4HfBK/Long-Sleeve.jpg" alt="Long-Sleeve"
+                                        style="max-width: 250px; border: 2px solid #d5d5d5;" width="100%"></a>
+                                <h2 style="font-family: sans serif; font-size: 20px;">Tailor-Fit Shirt</h2>
+                                <p style="font-size: 16px;">$175</p>
+
+                            </td>
+                            <!-- This td tag acts as an invisible element that doesnt even register with the browser it sees it as almost as if it were an angle bracket on a tag but the styling is still adhered to so the inline display and the vertical align top conditions still apply allowing the 3rd item in the row to appear next to the first because of the vertical align top condition -->
+                            <td style="display: inline-block; max-width: 20px; width: 100%;">
+                                &nbsp;
+                            </td>
+                            <td style="display: inline-block;">
+                                <a href=""><img src="https://i.ibb.co/3WFf7y9/pants.jpg" alt="pants"
+                                        style="max-width: 250px; border: 2px solid #d5d5d5;" width="100%"></a>
+                                <h2 style="font-family: sans serif; font-size: 20px;">Designer Jeans</h2>
+                                <p style="font-size: 16px;">$210</p>
+
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Footer -->
+
+            <tr>
+                <td style="vertical-align: top;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                        style="background-color: #d5d5d5;">
+                        <tr>
+                            <td style="display: block; width: 100%; height: 2px; background-color: #d5d5d5"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0;">
+                                <p style="font-size: 20px; font-family: sans-serif; color:#ffffff; font-weight: bold; letter-spacing: 2px;">CONNECT</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                        style="background-color: #d5d5d5; padding: 0px 20px; border-top: solid 3px #ffffff;">
+                        <tr>
+                            <td>
+                                <a href=""><img src="https://i.ibb.co/MGdQcrL/white-youtube.png" alt="" width="80px" style="padding-right: 15px; margin-left: 25px;"></a>
+                                <a href=""><img src="https://i.ibb.co/dW9DHgw/white-twitter.png" alt="" width="80px" style="padding-right: 15px;"></a>
+                                <a href=""><img src="https://i.ibb.co/tmjcSng/white-linkedin.png" alt="" width="80px" style="padding-right: 15px;"></a>
+                                <a href=""><img src="https://i.ibb.co/s1W6vTc/white-instagram.png" alt="" width="80px" style="padding-right: 15px;"></a>
+                                <a href=""><img src="https://i.ibb.co/gyRW8zn/white-facebook.png" alt="" width="80px" style="padding-right: 15px;"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+        </table><!-- End Of Main Table -->
+    </center>
+</body>
