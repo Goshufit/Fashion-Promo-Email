@@ -44,7 +44,7 @@
             /* fixed makes sure the table layout doesnt display out of parent elements or the center tag */
             table-layout: fixed;
             /* gives spacing tot he bottom of the email template */
-            padding-bottom: 60px;
+            padding-bottom: 0;
 
         }
 
@@ -61,10 +61,25 @@
             text-align: center;
         }
 
+        .thick {
+            width: 65px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
 
         @media only screen and (max-width: 600px) {}
 
-        @media only screen and (max-width: 400px) {}
+        @media only screen and (max-width: 500px) {
+            
+            .thick {
+            width: 25px;
+        }
+
+        }
     </style>
 </head>
 
@@ -215,13 +230,45 @@
                         style="background-color: #000; padding: 10px 20px; border-top: solid 3px #ffffff;">
                         <tr>
                             <td>
-                                <a href="#"><img src="https://i.ibb.co/MGdQcrL/white-youtube.png" alt="youtube" width="65px" style="padding-right: 15px; margin-left: 15px; padding-left: 15px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/dW9DHgw/white-twitter.png" alt="twitter" width="65px" style="padding-right: 15px; padding-left: 15px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/tmjcSng/white-linkedin.png" alt="linkedin" width="65px" style="padding-right: 15px; padding-left: 15px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/s1W6vTc/white-instagram.png" alt="instagram" width="65px" style="padding-right: 15px; padding-left: 15px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/gyRW8zn/white-facebook.png" alt="facebook" width="65px" style="padding-right: 15px; padding-left: 15px;"></a>
+                                <a href="#"><img src="https://i.ibb.co/MGdQcrL/white-youtube.png" alt="youtube" class="thick" style="padding-right: 15px; margin-left: 15px; padding-left: 15px;"></a>
+                                <a href="#"><img src="https://i.ibb.co/dW9DHgw/white-twitter.png" alt="twitter" class="thick" style="padding-right: 15px; padding-left: 15px;"></a>
+                                <a href="#"><img src="https://i.ibb.co/tmjcSng/white-linkedin.png" alt="linkedin" class="thick" style="padding-right: 15px; padding-left: 15px;"></a>
+                                <a href="#"><img src="https://i.ibb.co/s1W6vTc/white-instagram.png" alt="instagram" class="thick" style="padding-right: 15px; padding-left: 15px;"></a>
+                                <a href="#"><img src="https://i.ibb.co/gyRW8zn/white-facebook.png" alt="facebook" class="thick" style="padding-right: 15px; padding-left: 15px;"></a>
                             </td>
                         </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#efefef">
+                    <table width="100%">
+
+                        <tr>
+                            <td style="text-align: left; line-height: 1px; padding-left: 10px;">
+                                <p style="font-weight: bold; text-align: right; padding-right: 22px; padding-top: 10px;">Fashion Network</p>
+                                <!-- Use capitol M for outlook clients to read CSS -->
+                                <p style="font-size: 16px; Margin-top: 18px; Margin-bottom: 10px;">
+                                    123 Email Developer Lane,
+                                </p>
+                                <p>City, State 77777</p>
+                                <a href="mailto:email@email.com">
+                                    <p>email@developer.com</p>
+                                </a>
+                                <a href="#">
+                                    <p>1-800-CSS-HTML</p>
+                                </a>
+                                <p style="font-size: 16px; Margin-top: 30px; Margin-bottom: 20px; text-decoration: underline;">
+                                    <a class="btn-sub" href="#">UNSUBSCRIBE</a>
+                                </p>
+
+                            </td>
+                            <td>
+                                <a href="#"><p style="text-align: right; margin-right: 10px; text-decoration: underline;">Privacy policy</p>
+                            </td></a>
+                        </tr>
+
                     </table>
                 </td>
             </tr>
